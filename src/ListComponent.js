@@ -27,7 +27,6 @@ const ListComponent = () => {
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
-      onChangeHandler(e);
       onClickHandler(input);
     }
   }
